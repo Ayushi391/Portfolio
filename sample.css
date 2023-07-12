@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(230, 204, 230);
+}
+
+h1, h2, h3,h4{
+    font-family: 'Quicksand', sans-serif;
+}
+.about{
+    font-size: 22px;
+}
+p{
+    font-family: 'Caveat', cursive;
+}
+.h1{
+    text-align: left;
+    font-size: 65px;
+    margin: 2rem 15rem 8rem 9.5rem;
+}
+.h3{
+    color: rgb(82, 2, 82);
+    font-size: 40px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+.image{
+    float: left;
+  margin-left: 7%;
+  margin-top: 2rem;
+  height: 230px;
+  width: 230px;
+}
+.right{
+    float: right;
+    margin-right:8rem;
+    height:280px ;
+    width: 300px;
+}
+.left{
+    float:left;
+    margin-left: 6rem;
+    height:300px ;
+    width: 300px;
+}
+.line{
+    height: 1px;
+    background-color: black;
+    width: 50%;
+}
+.A{
+    text-align: right;
+    margin-left: 4rem;
+    margin-right: 10%;
+    margin-bottom: 12%;
+}
+ul{
+    list-style: none;
+    line-height:2rem;
+}
+
+.B ,.D,.F{
+    text-align: left;
+    margin: 8.5rem 9rem;
+}
+.C,.G ,.E{
+    text-align: right;
+    margin: 8.5rem 9rem;
+}
+footer{
+    margin-top: 2rem;
+}
+
+.mySlide{
+    display:none;
+}
+.x{
+    color: black;
+    opacity: 1;
+}
+
+
+.button-a{
+    border-radius: 12px;
+}
+
+@media (max-width:850px){
+    .right{
+        margin-right:1rem;
+        height: 200px;
+        width: 200px;
+    }
+
+    .left{
+        margin-left: 4rem;
+        height: 200px;
+        width: 200px;
+    }
+   .B,.C,.D,.E,.F,.G{
+        margin: 7rem 5rem;
+    }
+}
+@media (max-width:500px){
+    .h1{
+        font-size: 55px;
+        margin-left: 6.5rem;
+        margin-bottom: 3rem;
+    }
+    .h3{
+        font-size: 30px;
+    }
+   .A{
+        text-align: center;
+        font-size: 16px;
+    }
+    .image{
+        float: none;
+        margin-left: 1rem;
+        height: 150px;
+        width: 150px;
+    }
+    .right{
+        float: none;
+        height:100px ;
+        width: 100px;
+        margin-right:0.5%;
+    }
+    .left{
+        float: none;
+        height: 100px;
+        width:100px ;
+        margin-left: 0.5%;
+    }
+   .B,.C,.D,.E,.F,.G{
+        margin: 5rem;
+        text-align: center;
+    }
+}
